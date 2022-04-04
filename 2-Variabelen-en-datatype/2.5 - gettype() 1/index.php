@@ -4,6 +4,11 @@
 
 <?php
 
+$voornaam = "Ayoub";
+
+echo gettype($voornaam);
+
+
 ?>
 
 </body>
