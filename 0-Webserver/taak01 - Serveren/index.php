@@ -1,8 +1,6 @@
 <?php
 
-$score = "0";
 
-echo "Hallo en Welkom! <br>";
-echo "Mijn score is: $score";
+echo "<h1>Hallo en Welkom!</h1>";
 
 ?>
