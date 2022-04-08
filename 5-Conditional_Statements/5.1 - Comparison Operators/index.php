@@ -29,4 +29,4 @@ var_dump($test1 <= $test2);  // links is kleiner of gelijk aan rechts
 ?>
 
 </body>
-</html> 
+</html>
