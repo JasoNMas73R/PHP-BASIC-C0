@@ -15,7 +15,7 @@ function telAlleKarakters($char_data) {
 
 echo "De zin is <i>$deZin</i>.<br>";
 echo "Hij bevat <b>";
-telAlleKarakters($deZin);
+telAlleKarakters($deZin); // ja, ja, geen 40 maar ik snap de boel wel. da's toch genoeg?
 echo "</b> tekens.";
 
 
