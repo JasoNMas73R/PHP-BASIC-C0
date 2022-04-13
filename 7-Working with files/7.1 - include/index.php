@@ -1,10 +1,7 @@
 <!DOCTYPE html>
 <html>
-<body>
-
-<?php
-
-?>
-
-</body>
-</html> 
+    <head>
+        <title>index.php</title>
+        <?php include 'incls/jason.php';?> <!--lijkt op emoticon haha-->
+    </head>
+</html>
