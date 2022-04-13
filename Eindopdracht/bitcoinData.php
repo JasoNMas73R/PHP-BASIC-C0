@@ -8,7 +8,7 @@
  *      De array bevat 3 verschillende waardes: 2 integers en 1 float getal.
  *      Deze waardes mag je zelf kiezen, wees zo uniek mogelijk.
  * 3. De functie calculateBitcoinAmount() is niet afgemaakt. Deze functie rekent uit hoeveel bitcoins er worden gekocht als er op 1 van de knoppen geklikt wordt. 
- *     Zie regel 36 van dit bestand
+ *     Zie regel 38 van dit bestand
  * 4. Voeg de drie benodigde waardes toe aan de $transactions array met array_push() zodat de nieuwe gekochte stukje bitcoin wordt toegevoegd 
  */
 
@@ -18,6 +18,8 @@
 /* 
  * Opdracht 2: Zet hier de $buttons array neer 
  */
+
+$buttons = array(654, 898, 4.365);
 
 
 /******************************************* OPDRACHT 2 doe je hierboven *******************************************/
@@ -40,9 +42,10 @@ function calculateBitcoinAmount()
         $euro = (int)$_GET['euro']; //Dit blokje code (if-statement) kun je laten staan.
     }
 
+
     //SCHRIJF JE CODE.
 
-
+    return $euro / getBitcoinPrice(); // deelt waarde $euro door uitkomst aka waarde getBitCoinPrice()
 
 }
 /******************************************* OPDRACHT 3 doe je hierboven *******************************************/
@@ -79,7 +82,10 @@ if (isset($_GET['euro'])) {
      * Schrijf hieronder de code om de gekochte bitcoin aan de array $transactions toe te voegen.
      * Je voegt een bitcoinprijs toe, de prijs in euro's en het aantal gekochte bitcoins.
      */
-}
+
+    array_push($transactions, [getBitcoinPrice(), $euro, calculateBitcoinAmount()]); // heeft me serieus een half uur geduurd om te beseffen wat ik moest doen godverdomemjhriasutasgtesuih
+
+    }
 
 
 

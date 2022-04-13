@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
-<body>
 
-<?php
+    <body>
 
-?>
+        <?php
 
-</body>
+        ?>
+
+    </body>
 </html> 
